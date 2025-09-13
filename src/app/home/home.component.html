@@ -1,0 +1,14 @@
+<div class="flex h-screen w-screen bg-gray-100">
+  <!-- Left Sidebar -->
+  <div class="w-48 bg-white shadow-lg flex flex-col items-center py-6 gap-6">
+    <app-text (textRequest)="requestText($event)"></app-text>
+    <button class="export-btn mt-10" (click)="printCanvas()">📤 Export</button>
+  </div>
+
+  <!-- Editor -->
+  <div class="flex-1 flex justify-center items-center">
+    <div class="editor-area">
+      <canvas id="myCanvas" width="800" height="600"></canvas>
+    </div>
+  </div>
+</div>

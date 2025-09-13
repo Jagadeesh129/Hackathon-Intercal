@@ -1,0 +1,25 @@
+.editor-area {
+  border: 2px dashed #9ca3af; /* gray dashed border */
+  padding: 12px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+canvas {
+  border: 1px solid #d1d5db; /* subtle border */
+}
+.export-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fef3c7;
+  color: #b45309;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.export-btn:hover {
+  background-color: #fde68a;
+  transform: scale(1.05);
+}
