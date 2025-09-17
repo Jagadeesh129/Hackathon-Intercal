@@ -1,0 +1,16 @@
+.triangle-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #d1fae5;
+  color: #065f46;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.triangle-btn:hover {
+  background-color: #a7f3d0;
+  transform: scale(1.05);
+}

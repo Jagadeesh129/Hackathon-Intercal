@@ -1,4 +1,4 @@
-.text-btn {
+.save-btn {
   padding: 10px 16px;
   border: none;
   border-radius: 8px;
@@ -13,8 +13,7 @@
   margin-bottom: 10px; /* Added margin for consistency */
 }
 
-
-.text-btn:hover {
+.save-btn:hover {
   background-color: #bfdbfe;
   transform: scale(1.05);
 }

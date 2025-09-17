@@ -1,18 +1,16 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
+import { CanvasService } from '../service/canvas.service';
 
 @Component({
   selector: 'app-text',
   standalone: true,
   templateUrl: './text.component.html',
-  styleUrls: ['./text.component.css']
+  styleUrls: ['./text.component.css'],
 })
 export class TextComponent {
-  private textCounter = 0;
-  @Output() textRequest = new EventEmitter<any>();
+  constructor(private canvasService: CanvasService) {}
 
   addText() {
-    this.textCounter++;
-    const textId = `text-${this.textCounter}`;
-    this.textRequest.emit({ id: textId });
+    this.canvasService.addText();
   }
 }

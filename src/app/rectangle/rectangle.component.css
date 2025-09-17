@@ -1,0 +1,16 @@
+.rectangle-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e7ff;
+  color: #3730a3;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rectangle-btn:hover {
+  background-color: #c7d2fe;
+  transform: scale(1.05);
+}
